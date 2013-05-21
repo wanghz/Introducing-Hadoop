@@ -41,7 +41,7 @@ The following steps are just few hints, is more a guideline than precise directi
 2) Insert `JAVA_HOME` in your `PATH`
 
 3) Create new ssh keys and set passwordless connection with `localhost`
-* ssh-keygen
+* ssh-keygen (don't setup passphrases)
 * ssh-copy-id -i .ssh/id_rsa.pub localhost
 
 4) Download a stable version of hadoop
